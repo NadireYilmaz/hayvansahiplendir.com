@@ -5,12 +5,12 @@
 #173e42 -> koyu mavi  - yazıların rengi 
 #dfedf0 -> açık beyaz - body rengi 
 #fffdf7  -> mavi beyaz - ön divler 
-#4a7d85 -> koyu mavi  - üst bar rengi
+#4a7d85 -> koyu mavi  - üst bar rengi - tablo çizgisi
 */
 
 body{
 	margin:0px auto; 
-	font-family:verdana; 
+	font-family: inherit;
 	font-size:20px;
 	background-color: #ffffff;
 }
@@ -64,7 +64,7 @@ a:focus {
     margin: 10px;
 }
 .ilan tr td{
-	border: 1px solid #173e42;
+	border: 1px solid #4a7d85;
     margin: 10px;
 
 }
